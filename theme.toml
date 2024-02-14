@@ -1,0 +1,13 @@
+name = 'Silencio en la Sala'
+license = 'MIT'
+licenselink = 'https://github.com/flipasg/silencioenlasala/LICENSE'
+description = 'Silencio en la Sala theme'
+
+# Taxonomy terms
+tags = ['blog', 'silencio', 'silencio en la sala', 'poesia', 'poemas', 'poetry', 'micro', 'microrelatos', 'haiku', 'tanka']
+features = ['blog', 'poems', 'poetry']
+
+# If the theme has a single author
+[author]
+  name = 'Iker Garcia Ramirez'
+  homepage = 'https://flipasg.com/'
