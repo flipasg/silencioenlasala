@@ -1,21 +1,57 @@
-*{
+* {
   color: #bc8381;
 }
 
-a, a:visited, a:hover, a:focus, a:active {
+a,
+a:visited,
+a:hover,
+a:focus,
+a:active {
   color: #bc8381;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  padding: 0 1px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #727cca;
 }
 
 html {
-  font-size: 18px;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 29.7px;
+  text-size-adjust: 100%;
+  vertical-align: baseline;
+  word-break: break-word;
   font-family: 'Old Standard TT', serif;
   overflow-y: scroll;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 body {
-	background-color:#2a2e44;
+  height: 100%;
+  background-color: #2a2e44;
+  background-attachment: fixed;
+  max-width: 800px;
 }
 
 body:before {
@@ -27,7 +63,8 @@ body:before {
   width: 100%;
   height: 100%;
   background-color: #2a2e44;
-  background-image: url(/silencioenlasala/images/face_reso.png), url(/silencioenlasala/images/stars.png);
+  background-image: url(/silencioenlasala/images/face_reso.png),
+    url(/silencioenlasala/images/stars.png);
   background-attachment: fixed;
   background-position: bottom right -150px;
   background-repeat: no-repeat, repeat;
@@ -35,10 +72,62 @@ body:before {
   z-index: -1;
 }
 
+header {
+  display: flex;
+  padding: 1rem 2rem;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  max-height: calc(100vh - 250px);
+  overflow: auto;
+  margin: 0 1rem;
+  padding: 0 1rem;
+  direction: rtl;
+}
+
+main * {
+  direction: ltr;
+}
+
 h1 {
   color: #dca780;
   padding: 0;
   text-decoration: none;
-  font-size: 45px;
-  max-width: 200px;
+  font-size: 80px;
+  margin: 0px;
+  padding-top: 1rem;
+  line-height: 0.81em;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 span {
+  color: #dca780;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 47px;
+  margin: 15px 0;
+  line-height: 1.26383em;
+  text-align: left;
+  font-family: 'Old Standard TT', serif !important;
+  font-style: italic;
+  margin-bottom: 0;
+}
+h2 a {
+  text-decoration: none;
+}
+
+.logo {
+  width: 80px;
+}
+
+footer {
+  display: none;
 }
