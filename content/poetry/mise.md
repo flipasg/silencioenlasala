@@ -5,34 +5,21 @@ draft: false
 url: /2022/01/mise.html
 tags: 
 - 2022
+- poem
 ---
 
-Mi pasión ese paraíso,
+Mi pasión ese paraíso,  
+paisaje cubierto por lianas doradas,  
+que encantado recogía en su escucha.  
 
-paisaje cubierto por lianas doradas,
+Mi ilusión ese secreto,  
+transportador oculto en esa charca blanca,  
+centro ilusorio sobre el que giraba.  
 
-que encantado recogía en su escucha.
+Mi decisión ese pacto,  
+límites costeados, en busca del perder  
+ese origen de sensaciones que conocía.  
 
-  
-
-Mi ilusión ese secreto,
-
-transportador oculto en esa charca blanca,
-
-centro ilusorio sobre el que giraba.
-
-  
-
-Mi decisión ese pacto,
-
-límites costeados, en busca del perder
-
-ese origen de sensaciones que conocía.
-
-  
-
-Mi vocación ese extremo,
-
-sentir perenne de brisa tallada,
-
-dirección de rumbos sonoros al latir.
+Mi vocación ese extremo,  
+sentir perenne de brisa tallada,  
+dirección de rumbos sonoros al latir.  

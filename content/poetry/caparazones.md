@@ -5,20 +5,21 @@ draft: false
 url: /2021/04/caparazones.html
 tags: 
 - 2021
+- poem
 ---
 
-Caparazones,
-duros como rocas fuertes como robles,
-oscuros, exigentes como un laberinto.
+Caparazones,  
+duros como rocas fuertes como robles,  
+oscuros, exigentes como un laberinto.  
 
-Impenetrables,
-de composición heterogénea dispersa,
-amargos, variantes del viento.
-  
-Misteriosos,
-estrellados en su interior, galácticos,
-plácidos sedentarios en su movimiento.
-  
-Fuertes,
-bálsamos relajantes, traviesos propósitos,
-pronósticos unívocos inmutables.
+Impenetrables,  
+de composición heterogénea dispersa,  
+amargos, variantes del viento.  
+
+Misteriosos,  
+estrellados en su interior, galácticos,  
+plácidos sedentarios en su movimiento.  
+
+Fuertes,  
+bálsamos relajantes, traviesos propósitos,  
+pronósticos unívocos inmutables.  

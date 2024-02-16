@@ -5,34 +5,21 @@ draft: false
 url: /2021/05/limites.html
 tags: 
 - 2021
+- poem
 ---
 
-La sensación que vuela fina,
+La sensación que vuela fina,  
+huracán de tempestad interna,  
+intenso pálpito ahumado.  
 
-huracán de tempestad interna,
+Tallos sesgados evadidos,  
+calmantes de latidos desmedidos,  
+órganos silenciosos marchitos.  
 
-intenso pálpito ahumado.
+Temblor estático anclado,  
+la seguridad de la incertidumbre,  
+ruinas construidas coronadas.  
 
-  
-
-Tallos sesgados evadidos,
-
-calmantes de latidos desmedidos,
-
-órganos silenciosos marchitos.
-
-  
-
-Temblor estático anclado,
-
-la seguridad de la incertidumbre,
-
-ruinas construidas coronadas.
-
-  
-
-El movimiento que nada libre,
-
-nada completa y establecida,
-
-ralla viva que evoluciona y se mueve.
+El movimiento que nada libre,  
+nada completa y establecida,  
+ralla viva que evoluciona y se mueve.  

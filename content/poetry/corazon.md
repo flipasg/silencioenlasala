@@ -5,32 +5,20 @@ draft: false
 url: /2021/06/corazon.html
 tags: 
 - 2021
+- poem
 ---
 
-Centro del huracán,
+Centro del huracán,  
+ciego de valentía pulsas el ojo del tornado,  
+la palanca de los cobardes. Perdido.  
 
-ciego de valentía pulsas el ojo del tornado,
+La ansiedad del espantapájaros  
+intentando rozar las nubes, ve  
+letras figuradas que se trasladan por la superficie.  
 
-la palanca de los cobardes. Perdido.
-
-  
-
-La ansiedad del espantapájaros
-
-intentando rozar las nubes, ve
-
-letras figuradas que se trasladan por la superficie.
-
-  
-
-La neblina disipa las dudas,
-
-escalofrío con lingotes de remordimientos, instantánea de torpe deslizamiento. Inmóvil.
-
-  
+La neblina disipa las dudas,  
+escalofrío con lingotes de remordimientos, instantánea de torpe deslizamiento. Inmóvil.  
 
 Salto de altura,  
-
-con límites rotos y césped húmedo,
-
-dormido mirando el viento.
+con límites rotos y césped húmedo,  
+dormido mirando el viento.  

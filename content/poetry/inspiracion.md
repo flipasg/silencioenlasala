@@ -5,27 +5,24 @@ draft: false
 url: /2022/05/inspiracion.html
 tags: 
 - 2022
+- poem
 ---
 
 En lo profundo de esta organización,  
-Llena de hábitos   
+Llena de hábitos  
                             y directrices,  
-Nace un germen cantando una canción.
+Nace un germen cantando una canción.  
 
-  
 Un cántico herido lleno de cicatrices,  
 Preso de esa maligna situación,  
-Marginado de los habitantes   
-                                              felices.
-
-  
+Marginado de los habitantes  
+                                              felices.  
 
 Mas es bella su única creación,  
 Que entre sonrisas y risas elige,  
-Esconder con en esta oración.
+Esconder con en esta oración.  
 
-  
 Capitán de sentencias tristes,  
 Portador de un herido corazón,  
-Fugaz se desvanece   
-                                 en su aflige.
+Fugaz se desvanece  
+                                 en su aflige.  

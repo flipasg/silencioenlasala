@@ -5,48 +5,27 @@ draft: false
 url: /2023/03/tropiezo.html
 tags: 
 - 2023
+- poem
 ---
 
-Tápame con ese telón de hormigas,
+Tápame con ese telón de hormigas,  
+o de ratas con miedo encerradas,  
+que enfurecidas visten o vistan,  
+mi piel llena de suaves punzadas.  
 
-o de ratas con miedo encerradas,
+Dibujar como un satélite la espiral,  
+caer en tu falda de polvo ocupa,  
+poblar con el estruendo de mi cuerpo viral,  
+la habitación, la cama, la culpa.  
 
-que enfurecidas visten o vistan,
+Ese grito de colores que chapotean,  
+¡están vivos! mas pálidos en esencia,  
+no hay gris más luminoso, vean,  
+mi obsesión con el pastel, esa media.  
 
-mi piel llena de suaves punzadas.
+Rota en líneas desastrosas, horribles,  
+de un terror inconmensurable, pero libres,  
+que crean raíces, te atan al suelo firmes,  
+y sepultan tu conciencia con sus mimbres.  
 
-  
-
-Dibujar como un satélite la espiral,
-
-caer en tu falda de polvo ocupa,
-
-poblar con el estruendo de mi cuerpo viral,
-
-la habitación, la cama, la culpa.
-
-  
-
-Ese grito de colores que chapotean,
-
-¡están vivos! mas pálidos en esencia,
-
-no hay gris más luminoso, vean,
-
-mi obsesión con el pastel, esa media.
-
-  
-
-Rota en líneas desastrosas, horribles,
-
-de un terror inconmensurable, pero libres,
-
-que crean raíces, te atan al suelo firmes,
-
-y sepultan tu conciencia con sus mimbres.
-
-  
-
-  
-
-Me dejé caer.
+Me dejé caer.  

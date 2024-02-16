@@ -5,54 +5,31 @@ draft: false
 url: /2022/02/el-teatro-del-tobogan.html
 tags: 
 - 2022
+- poem
 ---
 
-Quisiste dar un salto eterno,
+Quisiste dar un salto eterno,  
+caída libre,  
+hacia el sentido de una carretera cortada,  
+pendiente e inclinada,  
+como un tobogán hacia el cielo.  
 
-caída libre,
+Un impulso extremo,  
+un golpe seco,  
+para intentar llegar más alto,  
+más lejos,  
+un golpe seco,  
+un cambio brusco,  
+y un zarandeo imparable.  
 
-hacia el sentido de una carretera cortada,
+El mareo en espiral,  
+con los giros tristes como caretas,  
+sin enfoque posible,  
+no lo viste,  
+no hay verdad en lo que ves.  
 
-pendiente e inclinada,
-
-como un tobogán hacia el cielo.
-
-  
-
-Un impulso extremo,
-
-un golpe seco,
-
-para intentar llegar más alto,
-
-más lejos,
-
-un golpe seco,
-
-un cambio brusco,
-
-y un zarandeo imparable.
-
-  
-
-El mareo en espiral,
-
-con los giros tristes como caretas,
-
-sin enfoque posible,
-
-no lo viste,
-
-no hay verdad en lo que ves.
-
-  
-
-Siniestros personajes en las sombras,
-
-amanecen,
-
-enloquecen con el final,
-
-vuelan desde el principio,
-
-caen desde el inicio.
+Siniestros personajes en las sombras,  
+amanecen,  
+enloquecen con el final,  
+vuelan desde el principio,  
+caen desde el inicio.  
