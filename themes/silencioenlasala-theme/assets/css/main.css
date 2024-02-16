@@ -2,12 +2,23 @@
   color: #bc8381;
 }
 
+p {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
 a,
 a:visited,
 a:hover,
 a:focus,
 a:active {
   color: #bc8381;
+  text-decoration: none;
+}
+
+.title {
+  display: flex;
+  gap: 1rem;
 }
 
 ::-webkit-scrollbar-track {
@@ -49,9 +60,12 @@ html {
 
 body {
   height: 100%;
+  width: 100%;
+  max-width: 800px;
   background-color: #2a2e44;
   background-attachment: fixed;
-  max-width: 800px;
+  display: flex;
+  flex-direction: column;
 }
 
 body:before {
@@ -66,7 +80,7 @@ body:before {
   background-image: url(/silencioenlasala/images/face_reso.png),
     url(/silencioenlasala/images/stars.png);
   background-attachment: fixed;
-  background-position: bottom right -150px;
+  background-position: bottom right;
   background-repeat: no-repeat, repeat;
   opacity: 0.3;
   z-index: -1;
@@ -83,7 +97,7 @@ main {
   display: flex;
   flex-direction: column;
   flex: auto;
-  max-height: calc(100vh - 250px);
+  max-height: calc(100vh - 200px);
   overflow: auto;
   margin: 0 1rem;
   padding: 0 1rem;
@@ -98,7 +112,7 @@ h1 {
   color: #dca780;
   padding: 0;
   text-decoration: none;
-  font-size: 80px;
+  font-size: 64px;
   margin: 0px;
   padding-top: 1rem;
   line-height: 0.81em;
@@ -110,24 +124,74 @@ h1 span {
   color: #dca780;
 }
 
-h2 {
+.post-title {
   font-weight: 300;
   font-size: 47px;
-  margin: 15px 0;
+  margin: 10px 0;
   line-height: 1.26383em;
   text-align: left;
   font-family: 'Old Standard TT', serif !important;
   font-style: italic;
   margin-bottom: 0;
 }
-h2 a {
+.post-title a {
   text-decoration: none;
 }
 
 .logo {
-  width: 80px;
+  width: 64px;
 }
 
 footer {
   display: none;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+  .post-title {
+    font-size: 32px;
+  }
+  main {
+    margin: 0px;
+    max-height: calc(100vh - 180px);
+  }
+
+  body:before {
+    background-position: bottom right -150px;
+  }
+
+  header {
+    padding: 1rem 1.5rem;
+  }
+}
+
+@media (max-width: 550px) {
+  html {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+
+  .post-title {
+    font-size: 28px;
+  }
+
+  .logo {
+    width: 50px;
+  }
+
+  main {
+    margin: 0px;
+    max-height: calc(100vh - 150px);
+  }
+
+  header {
+    padding: 1rem 1.5rem;
+  }
+  body:before {
+    background-size: contain;
+  }
 }

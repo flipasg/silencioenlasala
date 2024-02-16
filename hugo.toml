@@ -1,4 +1,4 @@
-baseURL = 'https://flipasg.com/silencioenlasala/'
+baseURL = 'https://silencioenlasala.com'
 languageCode = 'en-us'
 title = 'Silencio en la Sala'
 theme = 'silencioenlasala-theme'
