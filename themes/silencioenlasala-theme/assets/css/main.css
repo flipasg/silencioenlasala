@@ -77,8 +77,8 @@ body:before {
   width: 100%;
   height: 100%;
   background-color: #2a2e44;
-  background-image: url(/silencioenlasala/images/face_reso.png),
-    url(/silencioenlasala/images/stars.png);
+  background-image: url(/images/face_reso.png),
+    url(/images/stars.png);
   background-attachment: fixed;
   background-position: bottom right;
   background-repeat: no-repeat, repeat;
