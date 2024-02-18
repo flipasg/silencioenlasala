@@ -168,7 +168,7 @@ footer {
   font-size: 22px;
 }
 
-.navbar ul li a:hover {
+.navbar ul li a:hover, .navbar ul li a.active {
   color: #dca780;
 }
 
