@@ -179,9 +179,6 @@ footer {
 }
 
 @media (max-width: 550px) {
-  header {
-    justify-content: center;
-  }
   body:before {
     background-size: contain;
   }
