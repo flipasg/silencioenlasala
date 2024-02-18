@@ -2,20 +2,20 @@ baseURL = 'https://example.org/'
 languageCode = 'es-es'
 title = 'Silencio en la Sala'
 
+[menus]
 [[menus.main]]
-name = 'Home'
-pageRef = '/'
-weight = 10
-
+name = 'Poemas'
+pageRef = '/poemas'
+weight = 20
 [[menus.main]]
-name = 'Posts'
-pageRef = '/posts'
+name = 'Haikus'
+pageRef = '/haikus'
+weight = 20
+[[menus.main]]
+name = 'Microrelatos'
+pageRef = '/micro-relatos'
 weight = 20
 
-[[menus.main]]
-name = 'Tags'
-pageRef = '/tags'
-weight = 30
 
 [module]
   [module.hugoVersion]
