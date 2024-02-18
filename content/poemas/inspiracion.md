@@ -5,7 +5,7 @@ draft: false
 url: /2022/05/inspiracion.html
 tags: 
 - 2022
-- poem
+- poemas
 ---
 
 En lo profundo de esta organización,  

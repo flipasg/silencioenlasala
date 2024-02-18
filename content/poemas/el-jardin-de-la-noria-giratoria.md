@@ -5,7 +5,7 @@ draft: false
 url: /2022/12/el-jardin-de-la-noria-giratoria.html
 tags: 
 - 2022
-- poem
+- poemas
 ---
 
 La noria giratoria creó un enredo,  

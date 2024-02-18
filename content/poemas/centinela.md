@@ -5,7 +5,7 @@ draft: false
 url: /2020/04/centinela.html
 tags: 
 - 2020
-- poem
+- poemas
 ---
 
 Angosto mirador del centinela.  

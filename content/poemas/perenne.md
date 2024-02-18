@@ -5,7 +5,7 @@ draft: false
 url: /2023/04/perenne.html
 tags: 
 - 2023
-- poem
+- poemas
 ---
 
 Esas miradas que persigues desesperado,  

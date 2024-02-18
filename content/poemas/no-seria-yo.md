@@ -5,7 +5,7 @@ draft: false
 url: /2020/09/no-seria-yo.html
 tags: 
 - 2020
-- poem
+- poemas
 ---
   
 Intenté dar mi paciencia y mi presencia.  

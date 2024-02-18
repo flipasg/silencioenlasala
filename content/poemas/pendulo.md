@@ -5,7 +5,7 @@ draft: false
 url: /2021/05/pendulo.html
 tags: 
 - 2021
-- poem
+- poemas
 ---
 
 Colgué de una liana la guía del trazo de mis pasos,  

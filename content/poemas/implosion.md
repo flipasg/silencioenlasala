@@ -5,7 +5,7 @@ draft: false
 url: /2021/11/implosion.html
 tags: 
 - 2021
-- poem
+- poemas
 ---
 
 Confíe en el emblema de mi atuendo,  

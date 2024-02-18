@@ -5,7 +5,7 @@ draft: false
 url: /2020/11/tachon.html
 tags: 
 - 2020
-- poem
+- poemas
 ---
 
 Un terremoto rajó mi superficie lisa,  

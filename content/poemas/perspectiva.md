@@ -5,7 +5,7 @@ draft: false
 url: /2020/09/perspectiva.html
 tags: 
 - 2020
-- poem
+- poemas
 ---
 
 Es mi férreo pensamiento, te creo,  

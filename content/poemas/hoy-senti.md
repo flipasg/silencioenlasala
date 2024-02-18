@@ -5,7 +5,7 @@ draft: false
 url: /2023/03/hoy-senti.html
 tags: 
 - 2023
-- poem
+- poemas
 ---
 
 Hoy sentí los lamidos de crema  

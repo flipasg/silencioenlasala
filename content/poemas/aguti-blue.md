@@ -5,7 +5,7 @@ draft: false
 url: /2021/11/aguti-blue.html
 tags: 
 - 2021
-- poem
+- poemas
 ---
 
 Remé contra los vientos huracanados de la naturaleza,  

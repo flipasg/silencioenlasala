@@ -5,7 +5,7 @@ draft: false
 url: /2022/03/inercia.html
 tags: 
 - 2022
-- poem
+- poemas
 ---
 
 Navegué con un barco de bandera de amor y entrega,  

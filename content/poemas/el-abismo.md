@@ -5,7 +5,7 @@ draft: false
 url: /2023/04/el-avismo.html
 tags: 
 - 2023
-- poem
+- poemas
 ---
 
 Murió el abismo interno infinito,  

@@ -5,7 +5,7 @@ draft: false
 url: /2020/11/hasta-manana.html
 tags: 
 - 2020
-- poem
+- poemas
 ---
 
 Con el peso de una bolsa de titanio llena de piedras,  

@@ -5,7 +5,7 @@ draft: false
 url: /2021/09/mareo.html
 tags: 
 - 2021
-- poem
+- poemas
 ---
 
 Vi en los señuelos,  

@@ -5,7 +5,7 @@ draft: false
 url: /2021/12/paz-fugaz.html
 tags: 
 - 2021
-- poem
+- poemas
 ---
 
 Me rozó suave el momento,  

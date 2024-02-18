@@ -5,7 +5,7 @@ draft: false
 url: /2024/02/llanto.html
 tags: 
 - 2024
-- haiku
+- haikus
 ---
 
 Recorren lágrimas  

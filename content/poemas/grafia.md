@@ -5,7 +5,7 @@ draft: false
 url: /2021/09/grafia.html
 tags: 
 - 2021
-- poem
+- poemas
 ---
 
 La voz de la experiencia caducó,  

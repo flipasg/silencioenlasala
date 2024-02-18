@@ -5,7 +5,7 @@ draft: false
 url: /2013/10/cuenta-pendiente.html
 tags: 
 - 2013
-- poem
+- poemas
 ---
 
 La eterna cuenta pendiente,  

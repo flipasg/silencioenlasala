@@ -5,7 +5,7 @@ draft: false
 url: /2021/08/cancarisma.html
 tags: 
 - 2021
-- poem
+- poemas
 ---
 
 El encanto carismático sonoro interior,  

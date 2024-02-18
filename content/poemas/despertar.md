@@ -5,7 +5,7 @@ draft: false
 url: /2022/02/despertar.html
 tags: 
 - 2022
-- poem
+- poemas
 ---
 
 Amargando mis sueños inmersivos sonó el despertador,  

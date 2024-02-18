@@ -5,7 +5,7 @@ draft: false
 url: /2024/01/viste-supernova.html
 tags: 
 - 2024
-- poem
+- poemas
 ---
 
 Me cobró la vida con guiños encadenados,  

@@ -5,7 +5,7 @@ draft: false
 url: /2021/08/oasis.html
 tags: 
 - 2021
-- poem
+- poemas
 ---
 
 Ese charco hundido de venas varicosas,  

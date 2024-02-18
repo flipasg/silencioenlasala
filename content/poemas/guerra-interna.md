@@ -5,7 +5,7 @@ draft: false
 url: /2022/04/guerra-interna.html
 tags: 
 - 2022
-- poem
+- poemas
 ---
 
 En mil momentos cálidos me mermé y quemé  

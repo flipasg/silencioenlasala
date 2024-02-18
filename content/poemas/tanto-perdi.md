@@ -5,7 +5,7 @@ draft: false
 url: /2021/03/tanto-perdi.html
 tags: 
 - 2021
-- poem
+- poemas
 ---
 
 Perdí el ritmo del transcurso de esos momentos,  

@@ -5,7 +5,7 @@ draft: false
 url: /2022/01/intriga.html
 tags: 
 - 2022
-- poem
+- poemas
 ---
 
 Se acercó, respetuoso, rozando la frontera  

@@ -5,7 +5,7 @@ draft: false
 url: /2020/10/quise-mirarte-una-eternidad.html
 tags: 
 - 2020
-- poem
+- poemas
 ---
 
 Quise mirarte por una eternidad,  

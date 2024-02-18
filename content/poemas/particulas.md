@@ -5,7 +5,7 @@ draft: false
 url: /2020/12/particulas.html
 tags: 
 - 2020
-- poem
+- poemas
 ---
 
 Sin duda la versión que vi fue diferente,  
