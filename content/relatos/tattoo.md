@@ -10,6 +10,6 @@ tags:
 
 Le cuesta mirarse.  
 
-Si cada poro contase una historia, no todas serían de animadas, aunque la mayoría serían de animación.  
+Si cada poro contase una historia, no todas serían animadas, aunque la mayoría serían de animación.  
 
 ¿Quién no quiere sentir las ilustraciones de su vida?  
