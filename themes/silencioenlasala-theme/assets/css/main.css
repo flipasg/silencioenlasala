@@ -200,13 +200,13 @@ footer {
 @media (max-width: 768px) {
   body:before {
     background-position: bottom right;
-    opacity: 0.2;
+    opacity: 0.4;
   }
 }
 
 @media (max-width: 550px) {
   body:before {
     background-size: contain;
-    opacity: 0.2;
+    opacity: 0.4;
   }
 }
