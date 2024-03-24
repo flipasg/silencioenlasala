@@ -200,6 +200,7 @@ footer {
 @media (max-width: 768px) {
   body:before {
     background-position: bottom right;
+    opacity: 0.2;
   }
 }
 
