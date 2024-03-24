@@ -64,7 +64,7 @@ html {
 body {
   height: 100%;
   width: 100%;
-  max-width: 800px;
+  max-width: 710px;
   background-color: #2a2e44;
   background-attachment: fixed;
   display: flex;
@@ -80,13 +80,32 @@ body:before {
   width: 100%;
   height: 100%;
   background-color: #2a2e44;
-  background-image: url(/images/face_reso.png), url(/images/stars.png);
+  background-image: url(/images/cat.png), url(/images/stars.png);
   background-attachment: fixed;
+  background-size: 500px;
   background-position: bottom right;
   background-repeat: no-repeat, repeat;
-  opacity: 0.3;
+  opacity: 0.5;
   z-index: -1;
 }
+
+body.enredos:before {
+  background-image: url(/images/cat-bulb.png), url(/images/stars.png) !important;
+}
+
+body.haikus:before {
+  background-image: url(/images/cat-bird.png), url(/images/stars.png) !important;
+}
+
+body.poemas:before {
+  background-image: url(/images/cat-flower.png), url(/images/stars.png) !important;
+}
+
+body.relatos:before {
+  background-image: url(/images/cat-feather.png), url(/images/stars.png) !important;
+}
+
+
 
 header {
   display: flex;
@@ -102,10 +121,13 @@ main {
   flex-direction: column;
   flex: auto;
   max-height: calc(100vh - 150px);
+  max-width: 500px;
   overflow: auto;
   margin: 0 0.5rem;
   padding: 0 0.5rem;
   direction: rtl;
+  text-shadow: -1px -1px 0 #2a2e44, 1px -1px 0 #2a2e44, -1px 1px 0 #2a2e44, 1px 1px 0 #2a2e44;
+
 }
 
 main * {
@@ -166,20 +188,24 @@ footer {
   text-align: center;
   text-decoration: none;
   font-size: 22px;
+  text-shadow: -1px -1px 0 #2a2e44, 1px -1px 0 #2a2e44, -1px 1px 0 #2a2e44, 1px 1px 0 #2a2e44;
 }
 
 .navbar ul li a:hover, .navbar ul li a.active {
   color: #dca780;
 }
 
+
+
 @media (max-width: 768px) {
   body:before {
-    background-position: bottom right -150px;
+    background-position: bottom right;
   }
 }
 
 @media (max-width: 550px) {
   body:before {
     background-size: contain;
+    opacity: 0.2;
   }
 }
