@@ -1,5 +1,5 @@
 * {
-  color: #dca780;
+  color: #bc8381;
 }
 
 p {
@@ -200,13 +200,13 @@ footer {
 @media (max-width: 768px) {
   body:before {
     background-position: bottom right;
-    opacity: 0.4;
+    opacity: 0.3;
   }
 }
 
 @media (max-width: 550px) {
   body:before {
     background-size: contain;
-    opacity: 0.4;
+    opacity: 0.3;
   }
 }
