@@ -1,5 +1,5 @@
 * {
-  color: #bc8381;
+  color: #dca780;
 }
 
 p {
@@ -12,7 +12,7 @@ a:visited,
 a:hover,
 a:focus,
 a:active {
-  color: #bc8381;
+  color: #dca780;
   text-decoration: none;
 }
 
@@ -85,7 +85,7 @@ body:before {
   background-size: 500px;
   background-position: bottom right;
   background-repeat: no-repeat, repeat;
-  opacity: 0.5;
+  opacity: 0.8;
   z-index: -1;
 }
 
@@ -187,7 +187,8 @@ footer {
   display: block;
   text-align: center;
   text-decoration: none;
-  font-size: 22px;
+  color: #bc8381;
+  font-size: 20px;
   text-shadow: -1px -1px 0 #2a2e44, 1px -1px 0 #2a2e44, -1px 1px 0 #2a2e44, 1px 1px 0 #2a2e44;
 }
 
@@ -200,13 +201,17 @@ footer {
 @media (max-width: 768px) {
   body:before {
     background-position: bottom right;
-    opacity: 0.3;
+    opacity: 0.4;
   }
 }
 
 @media (max-width: 550px) {
   body:before {
-    background-size: contain;
+    background-size: 80%;
     opacity: 0.3;
+  }
+
+  .navbar ul li a {
+    font-size: 16px;
   }
 }
