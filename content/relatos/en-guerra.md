@@ -5,7 +5,7 @@ draft: false
 url: /2013/10/en-guerra.html
 tags: 
 - 2013
-- story
+- relatos
 ---
 
 En una época en la que todo está muy torcido y negativo pensamientos violentos merodean por tu mente.  

@@ -5,7 +5,7 @@ draft: false
 url: /2010/12/el-camino.html
 tags: 
 - 2010
-- story
+- relatos
 ---
 
 Nuestra vida es un camino, un camino plagado de curvas, baches, rectas...  

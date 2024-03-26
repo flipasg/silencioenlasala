@@ -5,7 +5,7 @@ draft: false
 url: /2014/10/menudo-lio.html
 tags: 
 - 2014
-- story
+- relatos
 ---
 
 Una operación a corazón abierto, un concierto de flechas  atravesaron mis adentros.  

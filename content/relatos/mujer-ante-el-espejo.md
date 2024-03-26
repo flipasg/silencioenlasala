@@ -5,7 +5,7 @@ draft: false
 url: /2024/02/mujer-ante-el-espejo.html
 tags: 
 - 2024
-- story
+- relatos
 ---
 
 Sus ojeras,  

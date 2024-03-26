@@ -5,7 +5,7 @@ draft: false
 url: /2024/02/tattoo.html
 tags: 
 - 2024
-- story
+- relatos
 ---
 
 Le cuesta mirarse.  

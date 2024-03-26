@@ -5,7 +5,7 @@ draft: false
 url: /2010/11/diluvia.html
 tags: 
 - 2010
-- story
+- relatos
 ---
 
 Diluvia.

@@ -5,7 +5,7 @@ draft: false
 url: /2011/10/quisiera-poder-decir.html
 tags: 
 - 2011
-- story
+- relatos
 ---
 
 Quisiera poder decir que soy parte de esto que te esta sucediendo.  

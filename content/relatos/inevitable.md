@@ -5,7 +5,7 @@ draft: false
 url: /2014/10/inevitable.html
 tags: 
 - 2014
-- story
+- relatos
 ---
 
 Es inevitable sentir frustración al ver algo precioso dentro de una urna de cristal. No poder tocarlo ni apreciarlo entre tus manos.  

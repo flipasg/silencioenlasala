@@ -5,7 +5,7 @@ draft: false
 url: /2013/12/suspiro.html
 tags: 
 - 2013
-- story
+- relatos
 ---
 
 Como la corriente creada al dejar varias ventanas abiertas,  

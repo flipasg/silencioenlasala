@@ -5,7 +5,7 @@ draft: false
 url: /2013/10/sin-sentido.html
 tags: 
 - 2013
-- story
+- relatos
 ---
 
 Párate a mirar lo que te pierde de verdad,  

@@ -5,7 +5,7 @@ draft: false
 url: /2024/02/amanece.html
 tags: 
 - 2024
-- story
+- relatos
 ---
 
 Sereno oye un alarmante sonido de fondo, sofocado y agitado busca su origen.

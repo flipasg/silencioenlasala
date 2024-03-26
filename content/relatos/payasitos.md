@@ -5,7 +5,7 @@ draft: false
 url: /2013/10/payasitos-dospayasitos-se-encuentran.html
 tags: 
 - 2013
-- story
+- relatos
 ---
 
 Dos payasitos se encuentran manchando las paredes.  
