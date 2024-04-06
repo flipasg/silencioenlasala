@@ -1,6 +1,6 @@
 ---
 title: 'Corazón helado.'
-date: 2024-04-06T18:51:00.001+01:00
+date: 2024-04-06T00:51:00.001+01:00
 draft: false
 url: /2024/04/corazon-helado.html
 tags: 
