@@ -9,7 +9,7 @@ tags:
 ---
 
 Me vi, sombra rota en el espejo, fiel y herida,    
-con una onda gelatinosa de venero tatuada,  
+con una onda gelatinosa de veneno tatuada,  
 una expansión de agujas de terror elevada,  
 rompiendo el cordón errático que la sostenía.  
 
