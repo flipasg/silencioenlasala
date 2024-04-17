@@ -8,7 +8,7 @@ tags:
 - poemas
 ---
 
-Me vi, sombra rota en el espejo, fiel y herida,  
+Me vi, sombra rota en el espejo, fiel y herida,    
 con una onda gelatinosa de venero tatuada,  
 una expansión de agujas de terror elevada,  
 rompiendo el cordón errático que la sostenía.  
