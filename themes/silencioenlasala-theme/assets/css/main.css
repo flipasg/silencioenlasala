@@ -80,7 +80,7 @@ body:before {
   width: 100%;
   height: 100%;
   background-color: #2a2e44;
-  background-image: url(/images/cat.png), url(/images/stars.png);
+  background-image: url(/images/cat-pink.png), url(/images/stars.png);
   background-attachment: fixed;
   background-size: 500px;
   background-position: bottom right;
@@ -90,19 +90,19 @@ body:before {
 }
 
 body.enredos:before {
-  background-image: url(/images/cat-bulb.png), url(/images/stars.png) !important;
+  background-image: url(/images/cat-bulb-pink.png), url(/images/stars.png) !important;
 }
 
 body.haikus:before {
-  background-image: url(/images/cat-bird.png), url(/images/stars.png) !important;
+  background-image: url(/images/cat-bird-pink.png), url(/images/stars.png) !important;
 }
 
 body.poemas:before {
-  background-image: url(/images/cat-flower.png), url(/images/stars.png) !important;
+  background-image: url(/images/cat-flower-pink.png), url(/images/stars.png) !important;
 }
 
 body.relatos:before {
-  background-image: url(/images/cat-feather.png), url(/images/stars.png) !important;
+  background-image: url(/images/cat-feather-pink.png), url(/images/stars.png) !important;
 }
 
 
@@ -201,14 +201,14 @@ footer {
 @media (max-width: 768px) {
   body:before {
     background-position: bottom right;
-    opacity: 0.4;
+    /* opacity: 0.4; */
   }
 }
 
 @media (max-width: 550px) {
   body:before {
     background-size: 80%;
-    opacity: 0.3;
+    /* opacity: 0.3; */
   }
 
   .navbar ul li a {
