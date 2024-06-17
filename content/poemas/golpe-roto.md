@@ -1,6 +1,6 @@
 ---
 title: 'Golpe roto.'
-date: 2024-06-17T22:23:00.001+01:00
+date: 2024-06-17T21:23:00.001+01:00
 draft: false
 url: /2024/06/golpe-roto.html
 tags: 
@@ -61,3 +61,4 @@ te has perdido,
 vuelve porfavor.  
 
 Firmado: Amor.   
+
