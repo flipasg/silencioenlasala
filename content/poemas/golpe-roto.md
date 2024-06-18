@@ -15,9 +15,8 @@ a ese que un día rompió.
 
 Se endeudó con la rima,  
 aunque no se le olvida,  
-porque con un golpe  
-se le olvidó,  
-pero rima todo.  
+porque con un golpe    
+rima todo.  
 
 Si, esa deuda del bien invertido  
 ni ve la neura en mi ¡qué divertido!  
@@ -25,17 +24,19 @@ pagando a cobro desvestido
 zafando a logro celestino.  
 
 Golpes de ácido corrosivo,  
-finos lotes de plástico corroído,  
+finos,  
+lotes de plástico corroído,  
 fácil,  
 incendiar el mundo de un soplido.  
 
 Visto para sentencia en firme,  
-esa firma difícil de creer,  
-un hacha en la nuca.  
+esa firma difícil de creer.   
+Un hacha en la nuca.  
 
-Viste el pacto   
+¿Viste el pacto   
 que hiciste con el diablo  
-para verme arder con lupa  
+para verme arder con lupa?  
+
 y la culpa...  
 
 ¡Ay la culpa!  
@@ -44,16 +45,17 @@ como la fruta en el frutero
 como las llaves en la puerta.  
 
 Debí romper el plato,  
-con la primera tortita en el desayuno  
-en ese momento que se perdió  
-ya que solo hay uno.  
+con la primera tortita  
+en el desayuno,  
+en ese momento que se perdió.  
 
-Marcado.  
+Marcado en árboles.  
 
 Vieron arder bosques,  
 oyeron caer coches,  
-pinchar cristales,  
-y al final el mazo,  
+pinchar cristales.   
+
+Al final el mazo,  
 golpeó sobre el corazón.  
 
 Poeta mío,  
