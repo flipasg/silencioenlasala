@@ -1,6 +1,6 @@
 ---
 title: 'Verte al rimar.'
-date: 2024-07-08T00:50:00.001+01:00
+date: 2024-07-08T00:00:00.001+01:00
 draft: false
 url: /2024/07/verte-al-rimar.html
 tags: 
