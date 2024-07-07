@@ -24,6 +24,6 @@ dando vida al cuerpo quieto sin dudar,
 dando prisa al exalto ansioso sin calmar.  
 
 Es verte sonriente y segura al caminar,  
-es sentirte libre y con locura al crear,  
+es sentirte libre, con locura para crear,  
 es elegirte como cura para sembrar,  
 es pedirte que me acompañes hasta el final.  
