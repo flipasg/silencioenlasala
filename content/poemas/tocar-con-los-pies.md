@@ -1,6 +1,6 @@
 ---
 title: 'Tocar con los pies.'
-date: 2024-1-22T00:50:00.001+01:00
+date: 2025-01-22T00:50:00.001+01:00
 draft: false
 url: /2025/01/tocar-con-los-pies.html
 tags: 
