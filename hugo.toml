@@ -2,3 +2,6 @@ baseURL = 'https://silencioenlasala.com'
 languageCode = 'en-us'
 title = 'Silencio en la Sala'
 theme = 'silencioenlasala-theme'
+
+[markup.goldmark.renderer]
+unsafe = true
