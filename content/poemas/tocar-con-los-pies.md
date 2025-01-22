@@ -11,9 +11,9 @@ tags:
 <pre>
 Si esas púas de los pies me hablasen,  
 me dirían:  
-          Pisa más fuerte cobarde,  
+           Pisa más fuerte cobarde,  
 suda y sangra el alivio,  
-avanza,                 ten hoyos de dureza.  
+avanza,                  ten hoyos de dureza.  
 
 Caminar podría ser acariciar la suavidad  
 de las lágrimas rojas de nuestras pisadas,
@@ -23,10 +23,10 @@ de lo rápido que hemos ido hasta mirarla.
 
 Si hoyos rizados del suelo me gritasen,  
 me ensordecerían:
-   Caíste, tantas  
-    veces, caíste,  
-                     pinchaste, tantas  
-                     veces, pinchaste.  
+     Caíste, tantas  
+     veces, caíste,  
+                       pinchaste, tantas  
+                       veces, pinchaste.  
                           
 Descansar.
 
