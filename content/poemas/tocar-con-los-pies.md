@@ -1,6 +1,6 @@
 ---
 title: 'Tocar con los pies.'
-date: 2024-01-22T00:50:00.001+01:00
+date: 2024-1-22T00:50:00.001+01:00
 draft: false
 url: /2025/01/tocar-con-los-pies.html
 tags: 
@@ -8,7 +8,7 @@ tags:
 - poemas
 ---
 
-<pre>
+
 Si esas púas de los pies me hablasen,  
 me dirían:  
           Pisa más fuerte cobarde,  
@@ -37,4 +37,3 @@ con ecos de sonidos hermosos.
 
 
 Toqué con los pies.
-</pre>
