@@ -2,9 +2,17 @@
   color: #dca780;
 }
 
-p {
+p, pre {
   margin-top: 10px;
   margin-bottom: 15px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 29.7px;
+  text-size-adjust: 100%;
+  vertical-align: baseline;
+  word-break: break-word;
+  font-family: 'Old Standard TT', serif;
 }
 
 a,
