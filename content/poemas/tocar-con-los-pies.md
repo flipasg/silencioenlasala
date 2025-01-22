@@ -8,7 +8,7 @@ tags:
 - poemas
 ---
 
-
+<pre>
 Si esas púas de los pies me hablasen,  
 me dirían:  
           Pisa más fuerte cobarde,  
@@ -37,3 +37,4 @@ con ecos de sonidos hermosos.
 
 
 Toqué con los pies.
+</pre>
