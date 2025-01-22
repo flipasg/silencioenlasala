@@ -20,7 +20,6 @@ de las lágrimas rojas de nuestras pisadas,
 para encontrarse durmiendo en la claridad
 de lo rápido que hemos ido hasta mirarla.
 
-
 Si hoyos rizados del suelo me gritasen,  
 me ensordecerían:
      Caíste, tantas  
