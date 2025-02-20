@@ -5,12 +5,12 @@ module.exports = {
   theme: {
     extend: {
       color: {
-        'brand': '#2a2e44',
-        'primary': '#bc8381',
-        'secondary': '#dca780',
+        'brand': '#ffeee5',
+        'primary': '#678d72',
+        'secondary': '#18231b',
       },
       fontFamily: {
-        'old-standard': ["Old Standard TT", 'serif'],
+        'old-standard': ["Amatic SC", 'serif'],
       },
 
     fontSize: {

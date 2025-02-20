@@ -1,18 +1,18 @@
 * {
-  color: #dca780;
+  color: #18231b;
 }
 
-p, pre {
+p,
+pre {
   margin-top: 10px;
   margin-bottom: 15px;
-  font-size: 18px;
   font-style: normal;
   font-weight: 300;
   line-height: 29.7px;
   text-size-adjust: 100%;
   vertical-align: baseline;
   word-break: break-word;
-  font-family: 'Old Standard TT', serif;
+  font-family: 'Lato', serif;
 }
 
 a,
@@ -20,15 +20,14 @@ a:visited,
 a:hover,
 a:focus,
 a:active {
-  color: #dca780;
+  color: #18231b;
   text-decoration: none;
 }
 
 .title {
   display: flex;
   gap: 1rem;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
 }
 
 ::-webkit-scrollbar-track {
@@ -45,7 +44,7 @@ a:active {
 
 ::-webkit-scrollbar-thumb {
   border-radius: 5px;
-  background-color: #727cca;
+  background-color: #678d72;
 }
 
 html {
@@ -56,7 +55,7 @@ html {
   text-size-adjust: 100%;
   vertical-align: baseline;
   word-break: break-word;
-  font-family: 'Old Standard TT', serif;
+  font-family: 'Lato', serif;
   overflow-y: scroll;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -73,7 +72,7 @@ body {
   height: 100%;
   width: 100%;
   max-width: 710px;
-  background-color: #2a2e44;
+  background-color: #ffeee5;
   background-attachment: fixed;
   display: flex;
   flex-direction: column;
@@ -87,8 +86,7 @@ body:before {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: #2a2e44;
-  background-image: url(/images/cat-pink.png), url(/images/stars.png);
+  background-color: #ffeee5;
   background-attachment: fixed;
   background-size: 500px;
   background-position: bottom right;
@@ -97,30 +95,12 @@ body:before {
   z-index: -1;
 }
 
-body.enredos:before {
-  background-image: url(/images/cat-bulb-pink.png), url(/images/stars.png) !important;
-}
-
-body.haikus:before {
-  background-image: url(/images/cat-bird-pink.png), url(/images/stars.png) !important;
-}
-
-body.poemas:before {
-  background-image: url(/images/cat-flower-pink.png), url(/images/stars.png) !important;
-}
-
-body.relatos:before {
-  background-image: url(/images/cat-feather-pink.png), url(/images/stars.png) !important;
-}
-
-
-
 header {
   display: flex;
+  flex-direction: column;
   padding: 1rem;
-  align-items: center;
   gap: 1.5rem;
-  align-items: center;
+  width: 100%;
   flex-wrap: wrap;
 }
 
@@ -134,8 +114,6 @@ main {
   margin: 0 0.5rem;
   padding: 0 0.5rem;
   direction: rtl;
-  text-shadow: -1px -1px 0 #2a2e44, 1px -1px 0 #2a2e44, -1px 1px 0 #2a2e44, 1px 1px 0 #2a2e44;
-
 }
 
 main * {
@@ -143,7 +121,7 @@ main * {
 }
 
 h1 {
-  color: #dca780;
+  color: #18231b;
   padding: 0;
   text-decoration: none;
   font-size: 50px;
@@ -155,17 +133,16 @@ h1 {
 }
 
 h1 span {
-  color: #dca780;
+  color: #18231b;
 }
 
 .post-title {
   font-weight: 300;
-  font-size: 32px;
+  font-size: 28px;
   margin: 10px 0;
   line-height: 1.26383em;
   text-align: left;
-  font-family: 'Old Standard TT', serif !important;
-  font-style: italic;
+  font-family: 'Lato', serif !important;
   margin-bottom: 0;
 }
 .post-title a {
@@ -173,8 +150,8 @@ h1 span {
 }
 
 .logo {
-  width: 155px;
-  margin: -25px -50px;
+  width: 100%;
+  max-width: 380px;
 }
 
 footer {
@@ -184,42 +161,31 @@ footer {
 .navbar ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 5px;
   overflow: hidden;
   display: flex;
-  gap: 0.9rem;
 }
-
 
 .navbar ul li a {
   display: block;
   text-align: center;
   text-decoration: none;
-  color: #bc8381;
-  font-size: 20px;
-  text-shadow: -1px -1px 0 #2a2e44, 1px -1px 0 #2a2e44, -1px 1px 0 #2a2e44, 1px 1px 0 #2a2e44;
+  color: #828ca4;
+  font-size: 22px;
+  font-family: 'Lato', serif;
+  width: 110px;
+  text-align: left;
 }
 
-.navbar ul li a:hover, .navbar ul li a.active {
-  color: #dca780;
-}
-
-
-
-@media (max-width: 768px) {
-  body:before {
-    background-position: bottom right;
-    /* opacity: 0.4; */
-  }
+.navbar ul li a:hover,
+.navbar ul li a.active {
+  color: #678d72;
+  font-weight: 500;
 }
 
 @media (max-width: 550px) {
-  body:before {
-    background-size: 80%;
-    /* opacity: 0.3; */
-  }
-
   .navbar ul li a {
+    width: 80px;
     font-size: 16px;
   }
 }

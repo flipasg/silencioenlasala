@@ -4,7 +4,7 @@
 <head>
 <meta charset='UTF-8'/>
 <meta content='width=device-width' name='viewport'/>
-<meta content='#2a2e44' name='theme-color'/>
+<meta content='#ffeee5' name='theme-color'/>
 
 <!-- Twitter Card data -->
 <meta content='@flipasg' name='twitter:creator'/>
@@ -153,7 +153,7 @@ html {
 }
 
 body {
-	background-color:#2a2e44;
+	background-color:#ffeee5;
   background-image:  url(https://drive.usercontent.google.com/u/0/uc?id=1t8BO9KqJ4ygKWy-3YBwgKZfHGJ1ejnlr);
   background-attachment: fixed;
 }
@@ -229,8 +229,8 @@ button,
 input,
 select,
 textarea {
-  color: #bc8381;
-  font-family: "Old Standard TT", serif;
+  color: #678d72;
+  font-family: "Amatic SC", serif;
   font-size: 16px;
   font-weight: 400;
 }
@@ -298,7 +298,7 @@ address {
 
 pre {
   background: rgba(119, 119, 119, 0.5);
-  font-family: "Courier 10 Pitch", Courier, monospace;
+  font-family: "Lato 10 Pitch", Lato, monospace;
   font-size: 0.9375em;
   line-height: 1.6em;
   margin-top: -2px;
@@ -397,8 +397,8 @@ img {
 .screen-reader-text:hover,
 .screen-reader-text:active,
 .screen-reader-text:focus {
-  background-color: #2a2e44;
-  border: 1px solid #bc8381;
+  background-color: #ffeee5;
+  border: 1px solid #678d72;
   -webkit-box-shadow: rgba(0, 0, 0, 0.6) 2px 2px 10px;
   -moz-box-shadow: rgba(0, 0, 0, 0.6) 2px 2px 10px;
   box-shadow: rgba(0, 0, 0, 0.6) 2px 2px 10px;
@@ -596,8 +596,8 @@ button,
 input,
 select,
 textarea {
-  color: #bc8381;
-  font-family: "Old Standard TT", serif;
+  color: #678d72;
+  font-family: "Amatic SC", serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 29.7px;
@@ -848,7 +848,7 @@ input[type="submit"] {
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #2a2e44;
+  background-color: #ffeee5;
   border: 0;
   border-radius: 0;
   color: white;
@@ -867,8 +867,8 @@ input[type="submit"]:hover {
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #2a2e44;
-  color: #bc8381;
+  background-color: #ffeee5;
+  color: #678d72;
 }
 @media screen and (max-width: 1000px) {
   button,
@@ -910,7 +910,7 @@ address {
 
 pre {
   background: rgba(0, 0, 0, 0.03);
-  font-family: "Courier 10 Pitch", Courier, monospace;
+  font-family: "Lato 10 Pitch", Lato, monospace;
   font-size: 0.94444em;
   line-height: 1.74706em;
   margin-bottom: 29.7px;
@@ -990,13 +990,13 @@ img {
 
 /* Links */
 a {
-  color: #bc8381;
+  color: #678d72;
 }
 a:visited {
-  color: #bc8381;
+  color: #678d72;
 }
 a:hover, a:focus, a:active {
-  color: #bc8381;
+  color: #678d72;
 }
 
 /* Show or hide a11y text */
@@ -1007,7 +1007,7 @@ a:hover, a:focus, a:active {
   position: relative;
   width: 100%;
   z-index: 100;
-  font-family: "Old Standard TT", serif;
+  font-family: "Amatic SC", serif;
     padding: 0 10px;
 }
 .site-headernbt img {
@@ -1084,7 +1084,7 @@ display: none;
 .site-titlenbt a {
 display: flex;
 flex-direction: column;
-  color: #dca780;
+  color: #18231b;
   padding: 0;
   text-decoration: none;
 }
@@ -1108,14 +1108,14 @@ flex-direction: column;
     padding: 0px; 
     -webkit-transform: rotate(0deg) skew(0deg); 
     transform: rotate(0deg) skew(0deg); 
-    border-left: 60px solid #727cca; 
-    border-right: 60px solid #727cca; 
+    border-left: 60px solid #b23522; 
+    border-right: 60px solid #b23522; 
     border-bottom: 60px solid transparent;
 	cursor: pointer;
 }
 .bookmark-img {
     width: 150px;
-    background: #2a2e44 url(https://drive.google.com/file/d/18Wvy4YK5DffpMgf4I3mB3agzTwz5fn6T/view) no-repeat center center;
+    background: #ffeee5 url(https://drive.google.com/file/d/18Wvy4YK5DffpMgf4I3mB3agzTwz5fn6T/view) no-repeat center center;
     height: 150px;
     /* background-color: white; */
     border-radius: 50%;
@@ -1181,7 +1181,7 @@ html, body{
 	overflow:hidden;
 }
 .widget.Blog {
-	scrollbar-color: #727cca transparent;
+	scrollbar-color: #b23522 transparent;
 	scrollbar-width:8px;
 	max-height: calc(100vh - 210.50px);
 	overflow: auto;
@@ -1208,7 +1208,7 @@ direction: ltr;
 
 ::-webkit-scrollbar-thumb {
   border-radius: 5px;
-  background-color: #727cca;
+  background-color: #b23522;
 }
 
 @media screen and (max-width: 1072px) {
@@ -1247,15 +1247,15 @@ flex: 0 0 64px;
  ) skew( 
 0deg
  );
-    border-left: 32px solid #727cca;
-    border-right: 32px solid #727cca;
+    border-left: 32px solid #b23522;
+    border-right: 32px solid #b23522;
     border-bottom: 32px solid transparent;
     cursor: pointer;
     height: 30vh;
 	}
 .bookmark-img {
     width: 100px;
-    background: #2a2e44 url(https://drive.usercontent.google.com/u/0/uc?id=18Wvy4YK5DffpMgf4I3mB3agzTwz5fn6T) no-repeat center center;
+    background: #ffeee5 url(https://drive.usercontent.google.com/u/0/uc?id=18Wvy4YK5DffpMgf4I3mB3agzTwz5fn6T) no-repeat center center;
     height: 100px;
     /* background-color: white; */
     border-radius: 50%;
@@ -1322,8 +1322,8 @@ flex: 0 0 50px;
  ) skew( 
 0deg
  );
-    border-left: 25px solid #727cca;
-    border-right: 25px solid #727cca;
+    border-left: 25px solid #b23522;
+    border-right: 25px solid #b23522;
     border-bottom: 25px solid transparent;
     cursor: pointer;
     height: 30vh;
@@ -1424,11 +1424,11 @@ flex: 0 0 50px;
   position: relative;
 }
 .navigation-mainnbt li.current_page_item > a, .navigation-mainnbt li.current-menu-item > a {
-  background-color: #bc8381;
+  background-color: #678d72;
   color: rgba(255, 255, 255, 0.7);
 }
 .navigation-mainnbt a {
-  border-top: 1px solid #bc8381;
+  border-top: 1px solid #678d72;
   color: white;
   display: block;
   letter-spacing: 1px;
@@ -1436,7 +1436,7 @@ flex: 0 0 50px;
   text-decoration: none;
 }
 .navigation-mainnbt a:hover {
-  background-color: #bc8381;
+  background-color: #678d72;
   color: rgba(255, 255, 255, 0.7);
 }
 .navigation-mainnbt ul:first-child > li:first-child > a {
@@ -1446,7 +1446,7 @@ flex: 0 0 50px;
   width: 10px;
 }
 .navigation-mainnbt::-webkit-scrollbar-thumb {
-  background: #bc8381;
+  background: #678d72;
 }
 @media screen and (max-width: 350px) {
 .titlewrapper .bookmark-img {
@@ -1509,7 +1509,7 @@ flex: 0 0 50px;
   display: none;
 }
 .secondary-navigation a {
-  color: #bc8381;
+  color: #678d72;
 }
 
 .hentry {
@@ -1564,7 +1564,7 @@ a.nbtmore-link {
     margin: 15px 0;
   line-height: 1.26383em;
   text-align: left;
-  font-family: "Old Standard TT", serif !important;
+  font-family: "Amatic SC", serif !important;
 font-style: italic;
 }
 .entry-title a {
@@ -1781,7 +1781,7 @@ object {
 .social-links a:before {
   background: rgba(255, 255, 255, 0.25);
   border-radius: 50%;
-  color: #bc8381;
+  color: #678d72;
   display: inline-block;
   margin-right: 7.425px;
   padding: 7.425px;
@@ -1960,7 +1960,7 @@ display: none !important;
   margin:0px 10px 5px 5px;
   padding:4px;
   border:0px solid #eee;
-  background:#2a2e44;
+  background:#ffeee5;
   width:220px;
   height:auto;
 }
@@ -2032,7 +2032,7 @@ function createSummaryAndThumb(pID){
 </script>
 
 <style id='custom-background-css' type='text/css'>
-body.custom-background { background-color: #2a2e44; }
+body.custom-background { background-color: #ffeee5; }
 </style>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async='async' src='https://www.googletagmanager.com/gtag/js?id=UA-29961473-1'/>
