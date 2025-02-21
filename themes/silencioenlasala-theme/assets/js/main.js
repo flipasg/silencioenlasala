@@ -4,8 +4,6 @@ document.addEventListener('DOMContentLoaded', function () {
   const originalLogoSrc = logo.src;
   const targetTranslation = -380; // The translation distance on the X axis (left to right)
 
-  function slideTransition(element, direction) {}
-
   function handleScroll(e) {
     if (window.innerWidth < 900) {
       const scrollPosition = e.currentTarget.scrollTop;
@@ -28,11 +26,15 @@ document.addEventListener('DOMContentLoaded', function () {
         showNew();
       } else if (scrollPosition === 0 && !logo.src.includes(originalLogoSrc)) {
         logo.style.opacity = 0;
+
+        logo.style.transform = `translateX(${0}px)`;
         logo.src = originalLogoSrc;
         logo.classList.remove('logo--scrolled');
-        logo.style.transition = 'opacity 0.5s fade-in';
-        logo.style.transform = `translateX(${0}px)`;
-        logo.style.opacity = 1;
+
+        setTimeout(() => {
+          logo.style.transition = 'opacity 0.5s fade-in';
+          logo.style.opacity = 1;
+        }, 100);
       }
     }
   }
