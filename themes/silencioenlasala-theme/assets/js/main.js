@@ -32,10 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
         logo.classList.remove('logo--scrolled');
         logo.style.transition = 'opacity 0.5s fade-in';
         logo.style.transform = `translateX(${0}px)`;
-
-        setTimeout(() => {
-          logo.style.opacity = 1;
-        }, 250);
+        logo.style.opacity = 1;
       }
     }
   }
