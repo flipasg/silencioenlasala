@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (window.innerWidth < 900) {
       const scrollPosition = e.currentTarget.scrollTop;
 
-      if (scrollPosition > 0) {
+      if (scrollPosition > 100) {
         const showNew = () => {
           if (scrollPosition + 200 < Math.abs(targetTranslation)) {
             logo.src = newLogoSrc;
