@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         showNew();
-      } else if (scrollPosition === 0 && !logo.src.includes(originalLogoSrc)) {
+      } else if (scrollPosition <= 100 && !logo.src.includes(originalLogoSrc)) {
         logo.style.opacity = 0;
 
         logo.style.transform = `translateX(${0}px)`;
