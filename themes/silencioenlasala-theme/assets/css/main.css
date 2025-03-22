@@ -69,6 +69,8 @@ body {
   background-attachment: fixed;
   display: flex;
   flex-direction: column;
+  max-width: 500px;
+  align-self: center;
 }
 
 header {
@@ -155,7 +157,6 @@ footer {
   display: none;
 }
 
-
 .navbar ul {
   list-style-type: none;
   margin: 0;
@@ -185,6 +186,9 @@ footer {
 @media (min-width: 768px) {
   body {
     flex-direction: row;
+
+    max-width: 100%;
+    align-self: auto;
   }
   .title {
     justify-content: center;
