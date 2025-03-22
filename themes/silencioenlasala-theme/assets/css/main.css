@@ -24,12 +24,6 @@ a:active {
   text-decoration: none;
 }
 
-.title {
-  display: flex;
-  gap: 1rem;
-  width: 100%;
-}
-
 ::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
   background-color: transparent;
@@ -65,7 +59,7 @@ html {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  min-width: 375px;
 }
 
 body {
@@ -78,28 +72,38 @@ body {
 }
 
 header {
-  display: flex;
-  flex-direction: column;
-  padding: 1rem 0;
-  gap: 1.5rem;
-  width: 100%;
-  flex-wrap: wrap;
-}
-
-main {
-  display: flex;
-  flex-direction: column;
   flex: auto;
-  max-height: calc(100vh - 150px);
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1.5rem;
+  flex-wrap: wrap;
   max-width: 500px;
-  overflow: auto;
-  margin: 0 0.5rem;
-  padding: 0 0.5rem;
-  direction: rtl;
+  transition: padding 0.3s ease, gap 0.3s ease;
 }
 
-main * {
-  direction: ltr;
+.title {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  align-items: center;
+  transition: gap 0.3s ease;
+}
+
+.logo {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  transition: max-width 0.3s ease, height 0.3s ease;
+}
+
+.scrolled header {
+  gap: 0.8rem;
+}
+
+.scrolled .logo {
+  max-width: 200px;
+  height: auto;
 }
 
 h1 {
@@ -118,6 +122,22 @@ h1 span {
   color: #18231b;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  max-height: calc(100vh - 150px);
+  max-width: 500px;
+  overflow: auto;
+  margin: 0 0.5rem;
+  padding: 0 0.5rem;
+  direction: rtl;
+}
+
+main * {
+  direction: ltr;
+}
+
 .post-title {
   font-weight: 300;
   font-size: 28px;
@@ -131,24 +151,10 @@ h1 span {
   text-decoration: none;
 }
 
-.logo {
-  width: 100%;
-  max-width: 380px;
-}
-
-
-.logo.logo--scrolled {
-  width: 200px;
-  height: 80px;
-}
-
 footer {
   display: none;
 }
 
-.navbar {
-  padding: 0 1rem;
-}
 
 .navbar ul {
   list-style-type: none;
@@ -176,18 +182,26 @@ footer {
   font-weight: 500;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 768px) {
   body {
     flex-direction: row;
   }
+  .title {
+    justify-content: start;
+  }
 
   header {
-    max-width: 300px;
+    justify-content: start;
+    height: 100%;
+    padding-top: 50px;
+    min-width: 360px;
+    width: 360px;
   }
-  
+
   main {
     margin: 10px 0;
     padding: 0px 20px;
+    margin-top: 50px;
     max-width: 600px;
     max-height: 100vh;
   }
