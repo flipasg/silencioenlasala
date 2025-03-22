@@ -187,7 +187,8 @@ footer {
     flex-direction: row;
   }
   .title {
-    justify-content: start;
+    justify-content: center;
+    align-items: center;
   }
 
   header {
