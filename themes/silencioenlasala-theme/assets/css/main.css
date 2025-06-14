@@ -105,11 +105,6 @@ header {
   align-items: center;
 }
 
-header.compact {
-  align-items: flex-start;
-  gap: 1rem;
-}
-
 .title {
   display: flex;
   gap: 1rem;
@@ -127,10 +122,6 @@ header.compact {
   transition: all 0.5s ease;
 }
 
-.navbar.compact {
-  max-width: none;
-}
-
 .logo {
   width: 100%;
   max-width: var(--logo-width-mobile);
@@ -138,10 +129,22 @@ header.compact {
   transition: all 0.5s ease;
 }
 
-.logo.small {
-  max-width: 120px;
-  opacity: 0;
-  animation: logoFadeIn 0.5s ease forwards;
+/* Mobile-only compact styles */
+@media (max-width: 559px) {
+  header.compact {
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .navbar.compact {
+    max-width: none;
+  }
+
+  .logo.small {
+    max-width: 120px;
+    opacity: 0;
+    animation: logoFadeIn 0.5s ease forwards;
+  }
 }
 
 @keyframes logoFadeIn {
@@ -322,6 +325,23 @@ footer {
     max-width: var(--logo-width-tablet);
   }
 
+  /* Override mobile compact styles for tablet */
+  header.compact {
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .navbar.compact {
+    max-width: var(--logo-width-tablet);
+    justify-content: center;
+  }
+
+  .logo.small {
+    max-width: var(--logo-width-tablet);
+    opacity: 1;
+    animation: none;
+  }
+
   .section-image-mobile {
     display: none;
   }
@@ -372,6 +392,10 @@ footer {
     overflow: auto;
   }
 
+  .navbar {
+    justify-content: center;
+  }
+
   .navbar ul {
     flex-direction: column;
     align-items: center;
@@ -403,6 +427,23 @@ footer {
     margin-top: 50px;
     padding: 0 20px;
     max-width: 320px;
+  }
+
+  /* Override mobile compact styles for desktop */
+  header.compact {
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .navbar.compact {
+    max-width: var(--logo-width-mobile);
+    justify-content: center;
+  }
+
+  .logo.small {
+    max-width: var(--logo-width-mobile);
+    opacity: 1;
+    animation: none;
   }
 
   .section-image-mobile,
@@ -448,6 +489,10 @@ footer {
   main .post-container {
     padding-left: 20px;
     max-width: 450px;
+  }
+
+  .navbar {
+    justify-content: center;
   }
 
   .navbar ul {
