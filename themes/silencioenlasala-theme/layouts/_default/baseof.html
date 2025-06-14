@@ -7,10 +7,17 @@
     {{ partial "head.html" . }}
   </head>
   <body class="{{ .Section }}">
-    <header>{{ partial "header.html" . }}</header>
+    <header>
+      {{ partial "header.html" . }}
+      <!-- Image container for tablet screens - at bottom of menu -->
+      <div class="section-image-tablet {{ .Section }}"></div>
+    </header>
     <main>
+      <!-- Image container for mobile screens - at beginning of posts -->
+      <div class="section-image-mobile {{ .Section }}"></div>
       <div class="post-container">{{ block "main" . }}{{ end }}</div>
-      <div class="logo-container {{ .Section }}"></div>
+      <!-- Image container for desktop screens - left container -->
+      <div class="section-image-desktop {{ .Section }}"></div>
     </main>
     <footer>{{ partial "footer.html" . }}</footer>
   </body>
