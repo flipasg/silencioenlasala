@@ -16,7 +16,7 @@
   --logo-width-scrolled: 200px;
   --sidebar-width-tablet: 280px;
   --image-size-mobile: 120px;
-  --image-size-tablet: 180px;
+  --image-size-tablet: 280px;
   --image-size-desktop: 350px;
 }
 
@@ -102,14 +102,23 @@ header {
   padding: 1rem;
   gap: 1.5rem;
   transition: padding 0.3s ease, gap 0.3s ease;
+  align-items: center;
 }
 
 .title {
   display: flex;
   gap: 1rem;
-  width: 100%;
   align-items: center;
   transition: gap 0.3s ease;
+  justify-content: flex-start;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  max-width: var(--logo-width-mobile);
 }
 
 .logo {
@@ -189,6 +198,7 @@ footer {
   padding: 5px;
   overflow: hidden;
   display: flex;
+  justify-content: flex-start;
 }
 
 .navbar ul li a {
@@ -211,10 +221,10 @@ footer {
 .section-image-mobile {
   display: flex;
   flex: none;
-  background-size: var(--image-size-mobile);
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  height: var(--image-size-mobile);
+  height: 100%;
   margin: 0.5rem 0;
 }
 
@@ -278,12 +288,12 @@ footer {
   .section-image-tablet {
     display: flex;
     flex: none;
-    background-size: var(--image-size-tablet);
-    background-position: center;
+    background-size: contain;
+    background-position: center bottom;
     background-repeat: no-repeat;
     height: var(--image-size-tablet);
     margin-top: auto;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 
   .section-image-tablet.enredos {
