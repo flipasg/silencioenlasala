@@ -99,17 +99,22 @@ header {
   flex: none;
   display: flex;
   flex-direction: column;
-  padding: 1rem;
+  padding: 0.5rem;
   gap: 1.5rem;
-  transition: padding 0.3s ease, gap 0.3s ease;
+  transition: all 0.5s ease;
   align-items: center;
+}
+
+header.compact {
+  align-items: flex-start;
+  gap: 1rem;
 }
 
 .title {
   display: flex;
   gap: 1rem;
   align-items: center;
-  transition: gap 0.3s ease;
+  transition: all 0.5s ease;
   justify-content: flex-start;
 }
 
@@ -119,13 +124,35 @@ header {
   align-items: center;
   width: 100%;
   max-width: var(--logo-width-mobile);
+  transition: all 0.5s ease;
+}
+
+.navbar.compact {
+  max-width: none;
 }
 
 .logo {
   width: 100%;
   max-width: var(--logo-width-mobile);
   height: auto;
-  transition: max-width 0.3s ease, height 0.3s ease;
+  transition: all 0.5s ease;
+}
+
+.logo.small {
+  max-width: 120px;
+  opacity: 0;
+  animation: logoFadeIn 0.5s ease forwards;
+}
+
+@keyframes logoFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .scrolled header {
@@ -158,6 +185,7 @@ main {
   flex-direction: column;
   flex: 1;
   overflow: hidden;
+  padding: 0 0.5rem;
 }
 
 main .post-container {
@@ -165,8 +193,8 @@ main .post-container {
   flex-direction: column;
   flex: 1;
   overflow: auto;
-  margin: 0 0.5rem;
-  padding: 0 0.5rem;
+  margin: 0;
+  padding: 0;
   direction: rtl;
 }
 
@@ -226,6 +254,23 @@ footer {
   background-repeat: no-repeat;
   height: 100%;
   margin: 0.5rem 0;
+  cursor: pointer;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.section-image-mobile.fade-out {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.section-image-mobile.scroll-up {
+  transform: translateY(-100%);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.section-image-mobile.hidden {
+  display: none;
 }
 
 .section-image-tablet {
