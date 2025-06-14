@@ -126,6 +126,12 @@ h1 span {
 
 main {
   display: flex;
+  flex-direction: column-reverse;
+  flex: auto;
+}
+
+main .post-container {
+  display: flex;
   flex-direction: column;
   flex: auto;
   max-height: calc(100vh - 150px);
@@ -136,8 +142,33 @@ main {
   direction: rtl;
 }
 
-main * {
+main .post-container * {
   direction: ltr;
+}
+
+main .logo-container {
+  display: flex;
+  flex: 1;
+  background-size: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-height: 150px;
+}
+
+main .logo-container.enredos {
+  background-image: url(/images/light/enredos.png) !important;
+}
+
+main .logo-container.haikus {
+  background-image: url(/images/light/haikus.png) !important;
+}
+
+main .logo-container.poemas {
+  background-image: url(/images/light/poemas.png) !important;
+}
+
+main .logo-container.relatos {
+  background-image: url(/images/light/relatos.png) !important;
 }
 
 .post-title {
@@ -186,9 +217,8 @@ footer {
 @media (min-width: 768px) {
   body {
     flex-direction: row;
-
-    max-width: 100%;
-    align-self: auto;
+    max-width: 1200px;
+    align-self: center;
   }
   .title {
     justify-content: center;
@@ -198,18 +228,35 @@ footer {
   header {
     justify-content: start;
     height: 100%;
-    padding-top: 50px;
-    min-width: 360px;
-    width: 360px;
+    margin-top: 50px;
+    padding: 0 20px;
+    max-width: 320px;
   }
 
   main {
-    margin: 10px 0;
-    padding: 0px 20px;
+    margin: 0;
+    padding: 0;
     margin-top: 50px;
-    max-width: 600px;
     max-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
+
+  main .post-container {
+    padding-left: 20px;
+    max-width: 450px;
+  }
+
+  main .logo-container {
+    display: flex;
+    flex: 1;
+    background-size: 350px;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    max-height: calc(100vh - 150px);
+  }
+
   .navbar ul {
     flex-direction: column;
     align-items: center;

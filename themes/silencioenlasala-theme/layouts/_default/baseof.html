@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="{{ or site.Language.LanguageCode site.Language.Lang }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
-<head>
-  {{ partial "head.html" . }}
-</head>
-<body class="{{ .Section }}">
-  <header>
-    {{ partial "header.html" . }}
-  </header>
-  <main>
-    {{ block "main" . }}{{ end }}
-  </main>
-  <footer>
-    {{ partial "footer.html" . }}
-  </footer>
-</body>
+<html
+  lang="{{ or site.Language.LanguageCode site.Language.Lang }}"
+  dir="{{ or site.Language.LanguageDirection `ltr` }}"
+>
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+  <body class="{{ .Section }}">
+    <header>{{ partial "header.html" . }}</header>
+    <main>
+      <div class="post-container">{{ block "main" . }}{{ end }}</div>
+      <div class="logo-container {{ .Section }}"></div>
+    </main>
+    <footer>{{ partial "footer.html" . }}</footer>
+  </body>
 </html>
