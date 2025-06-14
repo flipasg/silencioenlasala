@@ -313,16 +313,24 @@ footer {
     width: var(--sidebar-width-tablet);
     height: 100vh;
     padding: 1.5rem;
-    gap: 1.5rem;
+    gap: 1rem;
     position: relative;
+    overflow: hidden;
+    display: flex;
   }
 
   .title {
     justify-content: center;
+    flex: none;
   }
 
   .logo {
     max-width: var(--logo-width-tablet);
+  }
+
+  .navbar {
+    justify-content: center;
+    flex: none;
   }
 
   /* Override mobile compact styles for tablet */
@@ -357,8 +365,10 @@ footer {
     background-position: center bottom;
     background-repeat: no-repeat;
     height: var(--image-size-tablet);
+    width: 100%;
     margin-top: auto;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    flex-shrink: 0;
   }
 
   .section-image-tablet.enredos {
@@ -390,10 +400,6 @@ footer {
     margin: 1.5rem;
     padding: 0 1rem;
     overflow: auto;
-  }
-
-  .navbar {
-    justify-content: center;
   }
 
   .navbar ul {
