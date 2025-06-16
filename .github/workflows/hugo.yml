@@ -8,8 +8,11 @@ on:
       - completed
   workflow_dispatch:
   push:
+    # Only run on non-markdown file changes
     branches:
       - main
+    paths-ignore:
+      - 'content/**/*.md'
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
