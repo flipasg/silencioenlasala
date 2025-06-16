@@ -1,0 +1,32 @@
+name: Auto-add Front Matter
+
+on:
+  push:
+    paths:
+      - 'content/**/*.md'
+  pull_request:
+    paths:
+      - 'content/**/*.md'
+
+jobs:
+  autofix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.head_ref }}
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Auto-add front matter if missing
+        run: |
+          chmod +x scripts/add-frontmatter.py
+          scripts/add-frontmatter.py || true
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add content/**/*.md
+          git diff --cached --quiet || git commit -m "ci: auto-add front matter to markdown files"
+          git push || echo "No changes to push" 
