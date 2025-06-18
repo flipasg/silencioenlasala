@@ -1,7 +1,24 @@
 baseURL = 'https://silencioenlasala.com'
-languageCode = 'en-us'
+languageCode = 'es-ES'
 title = 'Silencio en la Sala'
 theme = 'silencioenlasala-theme'
 
+[params]
+  description = "El silencio es el gran maestro, y para aprender sus lecciones hay que estar atento a él."
+  author = "Iker Garcia"
+  twitter = "@flipasg"
+  
+  # Social media image (1200x630px recommended)
+  image = "/images/light/logo.png"
+  
+  # Analytics
+  googleAnalytics = "G-TZGWFR9DF1"
+
 [markup.goldmark.renderer]
 unsafe = true
+
+# Enable RSS
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+page = ["HTML"]
+section = ["HTML", "RSS"]
