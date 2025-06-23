@@ -1,4 +1,118 @@
+class ThemeManager {
+  constructor() {
+    this.currentTheme = this.getStoredTheme() || this.getPreferredTheme();
+    this.init();
+  }
+
+  init() {
+    this.applyTheme(this.currentTheme);
+    this.createToggleButton();
+    this.addEventListeners();
+  }
+
+  getStoredTheme() {
+    return localStorage.getItem('theme');
+  }
+
+  getPreferredTheme() {
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  }
+
+  applyTheme(theme) {
+    document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem('theme', theme);
+    this.currentTheme = theme;
+    this.updateToggleButton();
+  }
+
+  toggleTheme() {
+    const newTheme = this.currentTheme === 'light' ? 'dark' : 'light';
+    this.applyTheme(newTheme);
+  }
+
+  createToggleButton() {
+    const button = document.createElement('button');
+    button.className = 'theme-toggle';
+    button.setAttribute('aria-label', 'Toggle theme');
+    button.innerHTML = this.getToggleIcon();
+    document.body.appendChild(button);
+    this.toggleButton = button;
+  }
+
+  getToggleIcon() {
+    if (this.currentTheme === 'light') {
+      return '<img src="/images/dark/logo-dark.png" alt="Switch to classic mode" style="width: 50px; height: 50px;">';
+    } else {
+      return '<img src="/images/light/moon.png" alt="Switch to modern mode" style="width: 24px; height: 24px;">';
+    }
+  }
+
+  updateToggleButton() {
+    if (this.toggleButton) {
+      this.toggleButton.innerHTML = this.getToggleIcon();
+      this.toggleButton.setAttribute('aria-label', 
+        `Switch to ${this.currentTheme === 'light' ? 'dark' : 'light'} theme`
+      );
+    }
+  }
+
+  addEventListeners() {
+    // Toggle button click
+    document.addEventListener('click', (e) => {
+      if (e.target.classList.contains('theme-toggle') || e.target.closest('.theme-toggle')) {
+        this.toggleTheme();
+      }
+    });
+
+    // System theme change detection
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+      if (!this.getStoredTheme()) {
+        this.applyTheme(e.matches ? 'dark' : 'light');
+      }
+    });
+
+    // Keyboard shortcut (Ctrl/Cmd + Shift + T)
+    document.addEventListener('keydown', (e) => {
+      if ((e.ctrlKey || e.metaKey) && e.shiftKey && e.key === 'T') {
+        e.preventDefault();
+        this.toggleTheme();
+      }
+    });
+  }
+}
+class NavigationManager {
+  constructor() {
+    this.init();
+  }
+
+  init() {
+    this.setActiveNavItem();
+  }
+
+  setActiveNavItem() {
+    const currentPath = window.location.pathname;
+    const navLinks = document.querySelectorAll('.navbar a');
+    
+    navLinks.forEach(link => {
+      link.classList.remove('active');
+      const linkPath = new URL(link.href).pathname;
+      
+      if (currentPath === linkPath || 
+          (currentPath.startsWith(linkPath) && linkPath !== '/')) {
+        link.classList.add('active');
+      }
+    });
+  }
+}
+
+
+
+
+
 document.addEventListener('DOMContentLoaded', function () {
+  window.themeManager = new ThemeManager();
+  new NavigationManager();
+
   const main = document.querySelector('main'); // Scroll container
   const body = document.body;
   const mobileImage = document.querySelector('.section-image-mobile');
@@ -118,3 +232,9 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 });
+
+
+window.addEventListener('popstate', () => {
+  new NavigationManager();
+});
+

@@ -78,14 +78,31 @@
 <link rel="alternate" type="application/atom+xml" title="{{ site.Title }} - Atom" href="{{ "index.xml" | absURL }}" />
 <link rel="alternate" type="application/rss+xml" title="{{ site.Title }} - RSS" href="{{ "index.xml" | absURL }}" />
 
-{{/* Fonts */}}
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Open+Sans:wght@300&family=Playwrite+ES+Deco:wght@100..400&display=swap" rel="stylesheet" />
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet" />
+{{/* Font Preloading - Critical fonts loaded first to prevent FOUT */}}
+<link rel="preload" href="/fonts/Lato/Lato-Regular.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="preload" href="/fonts/Lato/Lato-Light.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="preload" href="/fonts/Old_Standard_TT/OldStandardTT-Regular.ttf" as="font" type="font/ttf" crossorigin>
 
-{{/* Font Awesome */}}
-<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
+{{/* Immediate Theme Loading - Prevents Flash */}}
+<script>
+(function() {
+  function getStoredTheme() {
+    try {
+      return localStorage.getItem('theme');
+    } catch (e) {
+      return null;
+    }
+  }
+  
+  function getPreferredTheme() {
+    return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  }
+  
+  // Apply theme immediately before page renders
+  const theme = getStoredTheme() || getPreferredTheme();
+  document.documentElement.setAttribute('data-theme', theme);
+})();
+</script>
 
 {{/* Analytics */}}
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-TZGWFR9DF1"></script>

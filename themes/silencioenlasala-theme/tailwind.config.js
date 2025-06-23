@@ -10,7 +10,8 @@ module.exports = {
         'secondary': '#18231b',
       },
       fontFamily: {
-        'old-standard': ["Amatic SC", 'serif'],
+        'old-standard': ["Old Standard TT", 'serif'],
+        'lato': ["Lato", 'sans-serif'],
       },
 
     fontSize: {

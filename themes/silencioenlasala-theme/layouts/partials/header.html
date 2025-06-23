@@ -1,14 +1,69 @@
-<a href="/poemas" class="title"
-  ><img
-    src="/images/light/logo.png"
-    alt="Silencio en la Sala"
-    class="logo"
-  />
-  <h1 style="display: none;">
-    <span>Silencio</span>
-    <span>en la Sala.</span>
-  </h1></a
->
+<div class="title">
+  <a href="/">
+    <img
+      src="/images/light/logo.png"
+      alt="Silencio en la Sala"
+      class="logo"
+      id="site-logo"
+    />
+    <h1 style="display: none;">
+      <span>Silencio</span>
+      <span>en la Sala.</span>
+    </h1>
+  </a>
+</div>
 
 {{ partial "nav.html" . }}
+
+<script>
+// Immediate logo update - runs as soon as this script loads
+(function() {
+  function updateLogoImmediate() {
+    const logo = document.getElementById('site-logo');
+    const theme = document.documentElement.getAttribute('data-theme') || 'light';
+    
+    if (logo) {
+      if (theme === 'dark') {
+        logo.src = '/images/dark/logo-with-text.png';
+      } else {
+        logo.src = '/images/light/logo.png';
+      }
+    }
+  }
+  
+  // Update logo immediately
+  updateLogoImmediate();
+})();
+
+// Update logo source based on theme - for theme toggle functionality
+function updateLogo() {
+  const logo = document.getElementById('site-logo');
+  const theme = document.documentElement.getAttribute('data-theme') || 'light';
+  
+  if (logo) {
+    if (theme === 'dark') {
+      logo.src = '/images/dark/logo-with-text.png';
+    } else {
+      logo.src = '/images/light/logo.png';
+    }
+  }
+}
+
+// Update logo on theme change
+document.addEventListener('DOMContentLoaded', updateLogo);
+
+// Listen for theme changes
+const observer = new MutationObserver(function(mutations) {
+  mutations.forEach(function(mutation) {
+    if (mutation.type === 'attributes' && mutation.attributeName === 'data-theme') {
+      updateLogo();
+    }
+  });
+});
+
+observer.observe(document.documentElement, {
+  attributes: true,
+  attributeFilter: ['data-theme']
+});
+</script>
 
