@@ -768,4 +768,9 @@ footer {
     width: 20px !important;
     height: 20px !important;
   }
+
+  [data-theme='light'] .theme-toggle img {
+    width: 50px !important;
+    height: 45px !important;
+  }
 }
