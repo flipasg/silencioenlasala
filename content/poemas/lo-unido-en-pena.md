@@ -1,7 +1,7 @@
 ---
 title: 'Lo unido en pena.'
 date: 2025-07-22T00:50:00.001+01:00
-draft: yes
+draft: no
 url: /2025/07/lo-unido-en-pena.html
 tags: 
 - 2025
