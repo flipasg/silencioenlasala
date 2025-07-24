@@ -61,6 +61,16 @@ pre {
   font-family: var(--font-family);
 }
 
+/* Fix pre element overflow */
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  overflow-x: hidden;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
 a,
 a:visited,
 a:hover,
