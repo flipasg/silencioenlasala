@@ -17,7 +17,8 @@ Un resplandor da altura e ilumina con vida.
 Las vistas panorámicas del valle  
 ilusionan como intimidan.  
 El valor florece junto al rio; los pájaros cantan roncos.  
-Se respira esperanza avinagrada: césped húmedo y rocas quemadas.  
+Se respira esperanza avinagrada:  
+            césped húmedo y rocas quemadas.  
   
 Hay agujeros, tanto de gusanos como de perros escapistas,  
 llenos de espinas de rosas que transitaron para huir lejos,  
