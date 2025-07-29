@@ -116,20 +116,28 @@ document.addEventListener('DOMContentLoaded', function () {
   const main = document.querySelector('main'); // Scroll container
   const body = document.body;
   const mobileImage = document.querySelector('.section-image-mobile');
+  const header = document.querySelector('header');
+  const logo = document.querySelector('.logo');
+  const navbar = document.querySelector('.navbar');
   let imageHidden = false;
 
-  // Mobile image interactions (only on mobile screens)
+  // Function to switch to compact layout
+  function switchToCompactLayout() {
+    if (header) header.classList.add('compact');
+    if (logo) logo.classList.add('small');
+    if (navbar) navbar.classList.add('compact');
+    if (mobileImage) mobileImage.classList.add('hidden');
+  }
+
+  // Check if this is a single page and apply compact layout immediately
+  const pageKind = body.getAttribute('data-page-kind');
+  if (pageKind === 'page') {
+    switchToCompactLayout();
+    imageHidden = true;
+  }
+
+  // Mobile image interactions (only on mobile screens and when the element exists)
   if (mobileImage && window.innerWidth < 560) {
-    const header = document.querySelector('header');
-    const logo = document.querySelector('.logo');
-    const navbar = document.querySelector('.navbar');
-    
-    // Function to switch to compact layout
-    function switchToCompactLayout() {
-      if (header) header.classList.add('compact');
-      if (logo) logo.classList.add('small');
-      if (navbar) navbar.classList.add('compact');
-    }
     
     // Click to fade out
     mobileImage.addEventListener('click', function () {

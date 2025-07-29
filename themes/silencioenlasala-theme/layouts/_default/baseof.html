@@ -6,7 +6,7 @@
   <head>
     {{ partial "head.html" . }}
   </head>
-  <body class="{{ .Section }}">
+  <body class="{{ .Section }}" data-page-kind="{{ .Kind }}">
     <header>
       {{ partial "header.html" . }}
       <!-- Image container for tablet screens - at bottom of menu -->
