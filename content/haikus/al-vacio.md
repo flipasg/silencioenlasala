@@ -1,5 +1,5 @@
 ---
-title: 'Al vacio'
+title: 'Al vacío.'
 date: 2025-08-21T10:52:32.319+02:00
 draft: false
 url: /2025/08/al-vacio.html
