@@ -8,7 +8,7 @@ tags:
 - poemas
 ---
 
-# *I. Condensación*  
+*I. Condensación*  
 
 Entre el aire y la verdad,  
 la condensación.  
@@ -16,11 +16,10 @@ la condensación.
 Recordé las espinas como alivio,  
 obligado estirar tiempos infinitos,  
 y las mastiqué como sopa mixta  
-de letras y fideos escurridizos.  
+de letras y fideos escurridizos. 
 
----
 
-# *II. Redención*  
+*II. Redención*  
 
 Entre el sol y la mar,  
 la redención.  
@@ -33,11 +32,11 @@ de treinta y tres,
 disfrazado de vivo, y no.  
 
 Fue él.  
-Fugaz y muerto.  
+Fugaz y muerto. 
 
----
 
-# *III. Aceptación*  
+
+*III. Aceptación*  
 
 Entre la noche y el peligro,  
 la aceptación.  
@@ -51,11 +50,12 @@ caricia.
 En ese peligro de perderme, brillan,  
 me recuerdan, y me olvidan.  
 Se ríen y clavan, líneas indecisas,  
-timones que se astillan: esas astillas.  
+timones que se astillan: esas astillas. 
 
----
 
-# *IV. Decisión*  
+
+
+*IV. Decisión*  
 
 Entré en el abismo y la verdad,  
 la decisión.  
@@ -73,9 +73,11 @@ Entre paja, tomates rotos,
 esqueletos de ratones y disfraces,  
 caricias y cenizas.  
 
----
 
-# *Epílogo*  
+
+
+
+*Epílogo*  
 
 Se condensa la redención.  
 Se acepta la decisión.  
