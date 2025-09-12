@@ -6,6 +6,7 @@ url: /2025/09/parapostado.html
 tags:
 - 2025
 - haikus
+---
 
 <pre>
 Son mis parásitos.
