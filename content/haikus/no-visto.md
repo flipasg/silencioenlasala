@@ -9,7 +9,7 @@ tags:
 ---
 
 <pre>
-Subete el párpado,
+Súbete el párpado,
 con pinzas de valor
 que no se cierre.
 </pre>
