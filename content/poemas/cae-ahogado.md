@@ -1,6 +1,6 @@
 ---
 title: 'Cae Ahogado.'
-date: 2025-10-07T00:50:00.001+01:00
+date: 2025-10-06T00:50:00.001+01:00
 draft: false
 url: /2025/10/cae-ahogado.html
 tags: 
