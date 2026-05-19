@@ -1,6 +1,6 @@
 ---
 title: 'Lo que quise cuidar.'
-date: 2026-05-19T00:12:00.000+02:00
+date: 2026-05-17T18:29:00.000+02:00
 draft: true
 url: /2026/05/lo-que-quise-cuidar.html
 tags:
