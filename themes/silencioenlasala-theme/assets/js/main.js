@@ -1,3 +1,7 @@
+// Set default theme to light
+document.documentElement.setAttribute('data-theme', 'light');
+
+/* COMMENTED OUT - Theme toggler functionality
 class ThemeManager {
   constructor() {
     this.currentTheme = this.getStoredTheme() || this.getPreferredTheme();
@@ -80,6 +84,7 @@ class ThemeManager {
     });
   }
 }
+*/
 class NavigationManager {
   constructor() {
     this.init();
@@ -92,25 +97,23 @@ class NavigationManager {
   setActiveNavItem() {
     const currentPath = window.location.pathname;
     const navLinks = document.querySelectorAll('.navbar a');
-    
-    navLinks.forEach(link => {
+
+    navLinks.forEach((link) => {
       link.classList.remove('active');
       const linkPath = new URL(link.href).pathname;
-      
-      if (currentPath === linkPath || 
-          (currentPath.startsWith(linkPath) && linkPath !== '/')) {
+
+      if (
+        currentPath === linkPath ||
+        (currentPath.startsWith(linkPath) && linkPath !== '/')
+      ) {
         link.classList.add('active');
       }
     });
   }
 }
 
-
-
-
-
 document.addEventListener('DOMContentLoaded', function () {
-  window.themeManager = new ThemeManager();
+  // window.themeManager = new ThemeManager(); // COMMENTED OUT - Theme toggler disabled
   new NavigationManager();
 
   const main = document.querySelector('main'); // Scroll container
@@ -138,16 +141,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Mobile image interactions (only on mobile screens and when the element exists)
   if (mobileImage && window.innerWidth < 560) {
-    
     // Click to fade out
     mobileImage.addEventListener('click', function () {
       if (!imageHidden) {
         mobileImage.classList.add('fade-out');
         imageHidden = true;
-        
+
         // Switch to compact layout immediately
         switchToCompactLayout();
-        
+
         // Hide completely after animation
         setTimeout(() => {
           mobileImage.classList.add('hidden');
@@ -163,25 +165,25 @@ document.addEventListener('DOMContentLoaded', function () {
     main.addEventListener('scroll', function () {
       if (!imageHidden) {
         const scrollTop = main.scrollTop;
-        
+
         if (!scrollStarted && scrollTop > 10) {
           scrollStarted = true;
           console.log('Scroll detected on main:', scrollTop);
         }
-        
+
         if (scrollTop > lastScrollTop && scrollTop > 20) {
           console.log('Triggering scroll-up animation');
           mobileImage.classList.add('scroll-up');
           imageHidden = true;
-          
+
           // Switch to compact layout immediately
           switchToCompactLayout();
-          
+
           setTimeout(() => {
             mobileImage.classList.add('hidden');
           }, 500);
         }
-        
+
         lastScrollTop = scrollTop;
       }
     });
@@ -192,10 +194,10 @@ document.addEventListener('DOMContentLoaded', function () {
         console.log('Window scroll detected:', window.scrollY);
         mobileImage.classList.add('scroll-up');
         imageHidden = true;
-        
+
         // Switch to compact layout immediately
         switchToCompactLayout();
-        
+
         setTimeout(() => {
           mobileImage.classList.add('hidden');
         }, 500);
@@ -212,15 +214,16 @@ document.addEventListener('DOMContentLoaded', function () {
       if (!imageHidden) {
         const touchY = e.touches[0].clientY;
         const deltaY = touchStartY - touchY;
-        
-        if (deltaY > 30) { // Swiped up
+
+        if (deltaY > 30) {
+          // Swiped up
           console.log('Touch swipe up detected');
           mobileImage.classList.add('scroll-up');
           imageHidden = true;
-          
+
           // Switch to compact layout immediately
           switchToCompactLayout();
-          
+
           setTimeout(() => {
             mobileImage.classList.add('hidden');
           }, 500);
@@ -241,8 +244,6 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
-
 window.addEventListener('popstate', () => {
   new NavigationManager();
 });
-

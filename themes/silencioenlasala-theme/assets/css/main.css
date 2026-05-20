@@ -313,7 +313,9 @@ footer {
   height: 100%;
   margin: 0.5rem 0;
   cursor: pointer;
-  transition: opacity 0.5s ease, transform 0.5s ease;
+  transition:
+    opacity 0.5s ease,
+    transform 0.5s ease;
   position: relative;
 }
 
@@ -724,7 +726,7 @@ footer {
   }
 }
 
-/* Theme Toggle Button */
+/* COMMENTED OUT - Theme Toggle Button
 .theme-toggle {
   position: fixed;
   top: 20px;
@@ -744,7 +746,7 @@ footer {
   justify-content: center;
 }
 
-/* Light theme toggle styling */
+Light theme toggle styling
 :root .theme-toggle {
   background: var(--color-background);
   box-shadow: 0 0 8px rgba(42, 46, 68, 0.15);
@@ -754,7 +756,7 @@ footer {
   box-shadow: 0 0 12px rgba(42, 46, 68, 0.25);
 }
 
-/* Dark theme toggle styling */
+Dark theme toggle styling
 [data-theme='dark'] .theme-toggle {
   background: var(--color-background);
   box-shadow: 0 0 8px rgba(255, 238, 229, 0.15);
@@ -764,7 +766,7 @@ footer {
   box-shadow: 0 0 12px rgba(255, 238, 229, 0.25);
 }
 
-/* Responsive theme toggle */
+Responsive theme toggle
 @media (max-width: 768px) {
   .theme-toggle {
     width: 45px;
@@ -784,3 +786,4 @@ footer {
     height: 45px !important;
   }
 }
+*/
