@@ -10,6 +10,6 @@ tags:
 
 <pre>
 Danzas del sol,
-escuen como abrazos,
+escuecen como abrazos,
 mueven heridas.
 </pre>
